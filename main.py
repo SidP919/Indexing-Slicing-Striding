@@ -34,5 +34,4 @@ window_length = 3
 for i in range (len(digits)-(window_length-1)):
   print(digits[i:i+window_length])
 
-
-
+print("with List comprehension: " + str([digits[i:i+window_length] for i in range (len(digits)-(window_length-1))]))
