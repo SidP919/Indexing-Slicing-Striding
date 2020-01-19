@@ -35,3 +35,14 @@ for i in range (len(digits)-(window_length-1)):
   print(digits[i:i+window_length])
 
 print("with List comprehension: " + str([digits[i:i+window_length] for i in range (len(digits)-(window_length-1))]))
+
+#range
+for i in range(3, 16, 3):#16 excluded
+    quotient = i / 3
+    print(f"{i} divided by 3 is {int(quotient)}.")
+
+print()
+
+for i in range(15, 2, -3):#2 excluded
+    quotient = i / 3
+    print(f"{i} divided by 3 is {int(quotient)}.")
